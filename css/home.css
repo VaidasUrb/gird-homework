@@ -1,0 +1,126 @@
+body,
+body {
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body { 
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.container { 
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 60px 20px;
+}
+.header { 
+width: 100%;
+position: fixed;
+top: 0;
+z-index: 1;
+background-color: antiquewhite;
+}
+
+.header > img { 
+     width: 50px;
+}
+
+.hero { 
+    background-color: aqua;
+    text-align: center;
+    margin-top: 40px;
+    gap: 0;
+}
+
+.hero > div { 
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.services { 
+    background-color: chartreuse;
+    gap: 0;
+}
+
+.first,.second,.third  { 
+width: 300px;
+display: flex;
+flex-direction: row;
+margin-top: 20px;
+padding: 5px;
+color: aliceblue;
+background-color: blue;
+text-align: center;
+}
+
+.third { 
+    margin-bottom: 20px;
+}
+
+.freelance { 
+    background-color: cornflowerblue;
+    text-align: center;
+    gap: 0;
+}
+
+.freelance > div {
+    margin-bottom: 20px;
+}
+
+.testimonials { 
+    background-color: blueviolet;
+    gap: 0;
+}  
+
+
+.top,.bottom {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+.bottom { 
+    margin-bottom: 20px;
+}
+
+.footer { 
+    background-color: blanchedalmond;
+    gap: 0;
+    text-align: center;
+    margin-bottom: 59px;
+}
+
+.footer > div { 
+    margin-bottom: 20px;
+}
+
+.nav { 
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+display: grid;
+background-color: aliceblue;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nav > a { 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+@media (min-width: 480px) {
+    .container {
+        width: 440px;
+    }
