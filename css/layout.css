@@ -1,0 +1,31 @@
+.header {
+    grid-area: hd;
+}
+
+.hero {
+    grid-area: her;
+}
+
+.services {
+    grid-area: serv;
+}
+
+.freelance {
+    grid-area: free;
+}
+
+.testimonials {
+    grid-area: test;
+}
+
+.footer {
+    grid-area: foot;
+}
+
+.nav {
+    grid-area: na;
+}
+
+.section {
+    grid-area: sect;
+}

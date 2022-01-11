@@ -7,41 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid</title>
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./image/Untitled.png">
+    <link rel="stylesheet" href="./components/font-awesome.min.css">
 </head>
 
 <body>
-    <header class="container header">
+    <header class="container header" data-group="hd">
         <img src="./image/Untitled.png" alt="logo">
+        <div class="social">
+            <a href="#" class="fa fa-facebook icon"></a>
+            <a href="#" class="fa fa-twitter icon"></a>
+        </div>
     </header>
-    <div class="container hero">
+    <div class="container hero" data-group="her">
         <h2>Hero</h2>
         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quisquam!</div>
     </div>
-    <div class="container services">
-        <h2>Services</h2>
+    <div class="container services" data-group="serv">
+        <h2 class="serv">Services</h2>
         <div class="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, atque?</div>
         <div class="second">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, doloremque?</div>
         <div class="third">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, animi!</div>
     </div>
-    <div class="container freelance">
+    <div class="container freelance" data-group="free">
         <h2>Freelancer</h2>
         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, ad?</div>
     </div>
-    <div class="container testimonials">
-        <h2>Testimonials</h2>
+    <div class="container testimonials" data-group="test">
+        <h2 class="testim">Testimonials</h2>
         <div class="top">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, tempore!</div>
         <div class="bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, omnis.</div>
     </div>
-    <footer class="container footer">
+    <footer class="container footer" data-group="foot">
         <h2>Footer</h2>
         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, delectus.</div>
     </footer>
-    <nav class="container nav">
+    <nav class="container nav" data-group="na">
         <a href="#">Home</a>
         <a href="#">Contact Us</a>
         <a href="#">About Us</a>
     </nav>
+    <section class="section">
+        <h2>ADS</h2>
+    </section>
 </body>
 
 </html>
